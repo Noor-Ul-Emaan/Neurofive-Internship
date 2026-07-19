@@ -1,16 +1,26 @@
-# React + Vite
+# Week 1 - Task 2: Consume a Public API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive React application built with Vite that fetches and renders live user data from a public API, fulfilling all the structural frontend requirement guidelines.
 
-Currently, two official plugins are available:
+## Features Covered
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Data Fetching:** Consumes the public JSONPlaceholder Users API (`https://jsonplaceholder.typicode.com/users`).
+- **Loading State:** Displays a user-friendly loading indicator (`⏳ Loading live data...`) while fetching the data to ensure the screen is never blank.
+- **Error Handling:** Gracefully handles network or API failures with a clean error alert and an explicit fallback message.
+- **Real-time Filter/Search:** Includes an interactive search input box allowing users to instantly filter the fetched list by name.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** React (Vite template)
+- **Styling:** Vanilla CSS (Custom Responsive Layout)
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Week-1-Task-2-Consume-a-Public-API/
+├── src/
+│   ├── App.jsx           # Core logic (Fetch, Loading, Filter, Error handling)
+│   ├── App.css           # Layout structures & custom styles
+│   └── main.jsx          # App entry point
+├── package.json
+└── README.md
