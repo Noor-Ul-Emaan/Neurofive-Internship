@@ -1,0 +1,24 @@
+{
+  "name": "week-5-task-1-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "start": "node server.js",
+  "test:backend": "jest --detectOpenHandles",
+  "test:frontend": "cd client && npm run test"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "cypress": "^15.18.1",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
