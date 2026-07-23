@@ -1,16 +1,16 @@
-# React + Vite
+# 🚀 Week 5 - Full-Stack Deployment & Performance Pass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-grade, highly optimized, and responsive full-stack web application built for the Neurofive Solutions Internship. This project focuses on production deployment, performance tuning via Lighthouse/PageSpeed audits, and SEO essentials.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live URLs & Repository
+* **GitHub Repository:** [Neurofive-Internship Repository](https://github.com/Noor-Ul-Emaan/Neurofive-Internship)
+* **Live Frontend:** `https://your-frontend-deployment-url.vercel.app` *(Replace with your live URL)*
+* **Live Backend API:** `https://your-backend-deployment-url.onrender.com` *(Replace with your live URL)*
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🏗️ Architecture Overview
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The system is architected as a decoupled Client-Server application:
